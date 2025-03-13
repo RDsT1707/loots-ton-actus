@@ -7,7 +7,7 @@
 }
 
 header {
-    color: #ffffff;
+    color: #f6f6f6;
     background-color: #0d1b2a;
     padding: 20px;
     text-align: center;
@@ -54,10 +54,10 @@ a.btn:hover {
 
 .cards {
     background-color: black;
-    border: 2px solid rgb(255, 255, 255);
     border-radius: 10px;
-    margin: 0 25px;
-    overflow: hidden;
+    border: 2px solid #ffffff; /* Bordure blanche de 2px */
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .card-text {
