@@ -56,8 +56,10 @@ a.btn:hover {
 
 
 .cards{
+    background-color: black;
     margin-left: 25px;
     margin-right: 25px;
+    
 }
 
 
@@ -73,9 +75,10 @@ a.btn:hover {
 .card-body{
     background-color: #0d1b2a;
 }
-/* test pages 6 */
+
 .tailles-image{
-    width: 2000px;
+    width: 800px;
+    background-color: black;
 }
 footer {
     background-color: #0d1b2a; 
