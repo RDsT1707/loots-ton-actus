@@ -52,12 +52,11 @@ a.btn:hover {
     display: block;
 }
 
-.cards {
+.card {
     background-color: black;
-    border-radius: 10px;
-    border: 2px solid #ffffff; /* Bordure blanche de 2px */
-    margin-left: 25px;
-    margin-right: 25px;
+    border-radius: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 .card-text {
@@ -95,3 +94,14 @@ footer .btn:hover {
     background-color: #1a2b3d;
     transform: scale(1.1);
 }
+
+
+.card {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+  }
+  
+  .card:hover {
+    background-color: #d1e7fd;
+  }
+  

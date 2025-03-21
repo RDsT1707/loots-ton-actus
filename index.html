@@ -18,35 +18,40 @@
 
 <!-- nav bar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top mb-4">
-  <div class="container">
-      <a class="navbar-brand text-white" href="#">MENU</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-              <li class="nav-item">
-                  <a class="nav-link text-white active" aria-current="page" href="#">Accueil</a>
-              </li>
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Jetez un oeil
-                  </a>
-                  <ul class="dropdown-menu bg-dark">
-                      <li><a class="dropdown-item text-primary" href="#meilleur-actus">Meilleures actus</a></li>
-                      <li><a class="dropdown-item text-primary" href="#actus">Actus</a></li>
-                      <li><hr class="dropdown-divider bg-primary"></li>
-                      <li><a class="dropdown-item text-primary" href="#suivre">Nous suivre</a></li>
-                  </ul>
-              </li>
-          </ul>
-          <form class="d-flex ms-auto">
-              <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
-              <button class="btn btn-outline-primary text-white" type="submit">Recherche</button>
-          </form>
-      </div>
-  </div>
-</nav>
+    <div class="container">
+        <a class="navbar-brand text-white" href="#">MENU</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white active" aria-current="page" href="#">Accueil</a>
+                </li>
+  
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Jetez un œil
+                    </a>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item text-white" href="#meilleur-actus">Meilleures actus</a></li>
+                        <li><a class="dropdown-item text-white" href="#actus">Actus</a></li>
+                        <li><hr class="dropdown-divider bg-primary"></li>
+                        <li><a class="dropdown-item text-white" href="#suivre">Nous suivre</a></li>
+                        <li><a class="dropdown-item text-white" href="#nouveautes">Nouveautés</a></li>
+                        <li><a class="dropdown-item text-white" href="#offres">Offres spéciales</a></li>
+                    </ul>
+                </li>
+            </ul>
+  
+            <form class="d-flex ms-auto">
+                <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+                <button class="btn btn-outline-primary text-white" type="submit">Recherche</button>
+            </form>
+        </div>
+    </div>
+  </nav>
+  
 <!-- nav bar -->
 
 <div class="container mb-5 ">
@@ -58,14 +63,14 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./assets/img/carousel1.jfif" class="d-block w-100" alt="Actualité jeu vidéo">
+                <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="Actualité jeu vidéo">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Dernières sorties</h5>
                     <p>Découvrez les jeux du moment</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="Nouveautés gaming">
+                <img src="./assets/img/carousel1.jfif" class="d-block w-100" alt="Nouveautés gaming">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Tests exclusifs</h5>
                     <p>Notre avis sur les derniers titres</p>
@@ -107,10 +112,6 @@
             </div>
         </div>
     </section>
-
-
-
-
 
 <section id="actus" class="mb-5">
   <h2 class="text-white mb-4">Dernières actualités</h2>
@@ -249,7 +250,9 @@
     </div>
   </footer>
 </div>
+<script src="./main.js"></script>
 
+<script src="assets/js/main.js"> </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-1c6c8c9135abf57dd5878a4d21c089ea8cc25e3eab1ef8ac08eb0c5cf11b57445" crossorigin="anonymous"></script>
 </body>
 </html>
