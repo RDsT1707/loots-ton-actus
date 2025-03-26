@@ -14,8 +14,7 @@ header {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
 }
 
-button,
-a.btn {
+button, a.btn {
     background-color: #0d1b2a;
     color: white;
     border: none;
@@ -28,8 +27,7 @@ a.btn {
     text-align: center;
 }
 
-button:hover,
-a.btn:hover {
+button:hover, a.btn:hover {
     background-color: #1a2b3d;
     transform: scale(1.05);
 }
@@ -57,6 +55,11 @@ a.btn:hover {
     border-radius: 20px;
     margin-left: 2px;
     margin-right: 2px;
+    transition: background-color 0.3s;
+}
+
+.card:hover {
+    background-color: #1a2b3d;
 }
 
 .card-text {
@@ -95,13 +98,22 @@ footer .btn:hover {
     transform: scale(1.1);
 }
 
+.col1 {
+    background-color: #0d1b2a;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
 
-.card {
-    background-color: #f0f0f0;
-    transition: background-color 0.3s;
-  }
-  
-  .card:hover {
-    background-color: #d1e7fd;
-  }
-  
+.col1.hover {
+    background-color: #ffffff;
+    color: #1a2b3d;
+}
+
+.col1.shadow {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid #1a2b3d;
+}
